@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FAVICON -->
+  <link rel="icon" href="images/favicon.ico">
+
+
+  <!-- BOOTSTRAP 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/style.css">
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&family=Merriweather+Sans&family=PT+Serif:wght@700&family=Ubuntu&display=swap"
+    rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <title>Brainz</title>
+</head>
+
+<body>
+
+  <section id="hom" class="home">
+    <div class="container-fluid">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <div class="container-fluid navbar-pad nav">
+          <a class="navbar-brand" href="#" style="color: rgb(54, 155, 180); font-weight: bolder;"><img
+              style="width: 20%;" src="images/icon.gif" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav  ms-auto">
+              <a class="nav-link active" aria-current="page" href="#hom">Home</a>
+              <a class="nav-link" href="#feature">Specializations</a>
+              <a class="nav-link" href="#team">Our team</a>
+              <a class="nav-link" href="#contact-form">Contact</a>
+              <a class="nav-link" href="#footer">Foot</a>
+              <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div>
+        <hr>
+        <h1 class="container title-txt">Brainz</h1>
+        <p class="container title-txt-p">we build once, its runs infinitely</p>
+      </div>
+      <div class="slider">
+        <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/web-development.jpeg" class="d-block w-50" style="margin: auto; width: auto;" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Efficay</h3>
+                <p>We have a team to produce your desire.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/learn-Android.png" class="d-block w-50" style="margin: auto; width: auto;" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Second slide label</h3>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <!-- <div class="carousel-item">
+              <img src="images/online-advertisement-.png" class="d-block w-50"
+                style="margin: auto; width: auto; max-height: 20%;" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Third slide label</h3>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div> -->
+            <div class="carousel-item">
+              <img src="images/istockphoto.jpg" class="d-block w-50" style="margin: auto; width: auto; max-height: 20%;"
+                alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Forth slide label</h3>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="feature" class="container-fluid features">
+    <div>
+
+      <div class="row justify-content-center specializations">
+
+        <h3 class="service-header">Our Services</h3>
+
+        <div class="card col col-lg-3 col-md-4 col-sm-12 col-12" style="width: 18rem;">
+          <img src="images/web-development.jpeg" class="card-img-top card-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, usu dicat legimus dolores ei. Vim ex utinam nonumy everti, hinc postea appareat id vim. Duo et dolore accusam accusata. Ea adhuc porro scriptorem sit. Qui no sonet aperiri,</p>
+            <!-- <a href="" >See More</a> -->
+            <button id="web-modal-btn" class="btn btn-success">see more</button>
+          </div>
+        </div>
+
+        <div class="card col col-lg-3 col-md-4 col-sm-12 col-12" style="width: 18rem;">
+          <img src="images/learn-Android.png" class="card-img-top card-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Android Development</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, usu dicat legimus dolores ei. Vim ex utinam nonumy everti, hinc postea appareat id vim. Duo et dolore accusam accusata. Ea adhuc porro scriptorem sit. Qui no sonet aperiri,</p>
+            <!-- <a href="#" class="btn btn-success">See More</a> -->
+            <button id="android-modal-btn" class="btn btn-success">see more</button>
+          </div>
+        </div>
+
+        <div class="card col col-lg-3 col-md-4 col-sm-12 col-12" style="width: 18rem;">
+          <img src="images/istockphoto.jpg" class="card-img-top card-image" alt="...">
+          <div class="card-body">
+            
+              <h5 class="card-title"> Forex Trading</h5>
+            
+            <p class="card-text">Lorem ipsum dolor sit amet, usu dicat legimus dolores ei. Vim ex utinam nonumy everti, hinc postea appareat id vim. Duo et dolore accusam accusata. Ea adhuc porro scriptorem sit. Qui no sonet aperiri,</p>
+            <!-- <a href="#" class="btn btn-success">See More</a> -->
+            <button id="fx-modal-btn" class="btn btn-success">see more</button>
+          </div>
+        </div>
+
+        <div class="card col col-lg-3 col-md-4 col-sm-12 col-12" style="width: 18rem;">
+          <img src="images/onlineadvertising.jpg" class="card-img-top card-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Online ADS</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, usu dicat legimus dolores ei. Vim ex utinam nonumy everti, hinc postea appareat id vim. Duo et dolore accusam accusata. Ea adhuc porro scriptorem sit. Qui no sonet aperiri,</p>
+            <!-- <a href="#" class="btn btn-success">See More</a> -->
+            <button id="ads-modal-btn" class="btn btn-success">see more</button>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div id="team" class=" row justify-content-center team">
+        <hr>
+        <h3 class="team-header">Our Dev Team</h3>
+        <div class="card col col-lg-6 col-md-6" style="width: 18rem;">
+          <img src="images/img1.jpg" class="card-img-top" style="margin: auto; width: auto; height: 150px;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tom Boniface</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="http://www.facebook.com/boniface.tom.90" class="btn btn-success">Meet On Social</a>
+          </div>
+        </div>
+
+        <!-- <div class="card col" style="width: 18rem;">
+                                <img src="images/img1.jpg" class="card-img-top" style="margin: auto; width: auto; height: 150px;" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div> -->
+      </div>
+    </div>
+  </section>
+
+
+  <div id="web_modal_container" class="web-modal-container">
+    <div class="web-modal">
+      <h1>Web development</h1>
+      <p>Lorem ipsum dolor sit amet, usu dicat legimus dolores ei. Vim ex utinam nonumy everti, hinc postea appareat id vim. Duo et dolore accusam accusata. Ea adhuc porro scriptorem sit. Qui no sonet aperiri, clita constituto no cum. Cibo evertitur signiferumque nec at, ad fabulas omittam assueverit his, te veri assentior qui.</p>
+      <button id="close-web-modal">Close</button>
+    </div>
+  </div>
+
+
+  <div id="android_modal_container" class="android-modal-container">
+    <div class="android-modal">
+      <h1>Android Development</h1>
+      <p>Lorem ipsum dolor sit amet, usu dicat legimus dolores ei. Vim ex utinam nonumy everti, hinc postea appareat id vim. Duo et dolore accusam accusata. Ea adhuc porro scriptorem sit. Qui no sonet aperiri, clita constituto no cum. Cibo evertitur signiferumque nec at, ad fabulas omittam assueverit his, te veri assentior qui.</p>
+      <button id="close-android-modal">Close</button>
+    </div>
+  </div>
+
+
+  <div id="fx_modal_container" class="fx-modal-container">
+    <div class="fx-modal">
+      <h1>FX Trading</h1>
+      <p>Lorem ipsum dolor sit amet, usu dicat legimus dolores ei. Vim ex utinam nonumy everti, hinc postea appareat id vim. Duo et dolore accusam accusata. Ea adhuc porro scriptorem sit. Qui no sonet aperiri, clita constituto no cum. Cibo evertitur signiferumque nec at, ad fabulas omittam assueverit his, te veri assentior qui.</p>
+      <button id="close-fx-modal">Close</button>
+    </div>
+  </div>
+
+
+  <div id="ads_modal_container" class="ads-modal-container">
+    <div class="ads-modal">
+      <h1>Online ADS Placement</h1>
+      <p>Lorem ipsum dolor sit amet, usu dicat legimus dolores ei. Vim ex utinam nonumy everti, hinc postea appareat id vim. Duo et dolore accusam accusata. Ea adhuc porro scriptorem sit. Qui no sonet aperiri, clita constituto no cum. Cibo evertitur signiferumque nec at, ad fabulas omittam assueverit his, te veri assentior qui.</p>
+      <button id="close-ads-modal">Close</button>
+    </div>
+  </div>
+
+
+  <section id="contact-form">
+    <div class="container contact-form">
+      <div class="contact-image">
+        <i class="fal fa-paper-plane fa-7x"></i>
+      </div>
+      <form method="post">
+        <h3>Drop Us a Message</h3>
+        <p>message use for any of our sevices, we will love to have you are our client.</p>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
+                  style="width: 100%; height: 150px;"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+            </div>
+          </div>
+          <!-- <div class="col-md-6">
+            <div class="form-group">
+              <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
+                style="width: 100%; height: 150px;"></textarea>
+            </div>
+          </div> -->
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="container">
+      <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>Quick links</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href=""><i class="fa fa-angle-double-right"></i>Home</a></li>
+            <li><a href=""><i class="fa fa-angle-double-right"></i>About</a></li>
+            <li><a href=""><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+            <li><a href=""><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+            <li><a href=""><i class="fa fa-angle-double-right"></i>Videos</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>Quick links</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href=""><i class="fa fa-angle-double-right"></i>Home</a></li>
+            <li><a href=""><i class="fa fa-angle-double-right"></i>About</a></li>
+            <li><a href=""><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+            <li><a href=""><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+            <li><a href=""><i class="fa fa-angle-double-right"></i>Videos</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>Quick links</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href=""><i class="fa fa-angle-double-right"></i>Home</a></li>
+            <li><a href=""><i class="fa fa-angle-double-right"></i>About</a></li>
+            <li><a href=""><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+            <li><a href=""><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+            <li><a href="" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+          <ul class="list-unstyled list-inline social text-center">
+            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+          </ul>
+        </div>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+          <p><u><a href="https://www.mydot.ng/">Mydot.NG</a></u> Web Hosting Company is a web hosting services and
+            domain name registration company. We are affiliated to Brainshare Technologies Limited (AS328457). Our Head
+            Office is at 3rd & 7th Floors Mulliner Towers, 39 Alfred Rewane Rd, 101233, Lagos.</p>
+          <p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.brainshare.ng/"
+              target="_blank"> Brainshare Tech</a></p>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </section>
+  <!-- ./Footer -->
+
+
+
+<!-- javaScript -->
+<!-- <script src="index.js" charset="UTF-8"></script> -->
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script> -->
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+ 
+  <script type="text/javascript">
+
+// web pop modal
+    const openWebDev = document.getElementById('web-modal-btn');
+    const webModalContainer = document.getElementById('web_modal_container');
+    const closeWebModal = document.getElementById('close-web-modal');
+
+    openWebDev.addEventListener('click', () => {
+      webModalContainer.classList.add('show')
+    });
+
+  closeWebModal.addEventListener('click', ()=>{
+      webModalContainer.classList.remove('show')
+  });
+
+  // android pop modal
+  const openAndroidDev = document.getElementById('android-modal-btn');
+    const androidModalContainer = document.getElementById('android_modal_container');
+    const closeAndroidModal = document.getElementById('close-android-modal');
+
+    openAndroidDev.addEventListener('click', () => {
+      androidModalContainer.classList.add('show')
+    });
+
+  closeAndroidModal.addEventListener('click', ()=>{
+      androidModalContainer.classList.remove('show')
+      });
+
+
+      // fx pop modal
+  const openFx = document.getElementById('fx-modal-btn');
+    const fxModalContainer = document.getElementById('fx_modal_container');
+    const closefxModal = document.getElementById('close-fx-modal');
+
+    openFx.addEventListener('click', () => {
+      fxModalContainer.classList.add('show')
+    });
+
+    closefxModal.addEventListener('click', ()=>{
+    fxModalContainer.classList.remove('show')
+      });
+
+
+      // ads pop modal
+  const openAds = document.getElementById('ads-modal-btn');
+    const adsModalContainer = document.getElementById('ads_modal_container');
+    const closeAdsModal = document.getElementById('close-ads-modal');
+
+    openAds.addEventListener('click', () => {
+      adsModalContainer.classList.add('show')
+    });
+
+    closeAdsModal.addEventListener('click', ()=>{
+    adsModalContainer.classList.remove('show')
+      });
+  </script>
+  </body>
+
+</html>
